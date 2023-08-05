@@ -1,0 +1,190 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(211, 211, 211);
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    height: 8500px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #4C212A;
+    color: white;
+    font-weight: 700;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    height: 100px;
+}
+
+.logo {
+    margin-left: 110px;
+    font-family: 'Cherry Bomb One', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: rgb(231, 228, 228);
+    user-select: none;
+}
+
+ul {
+    display: flex;
+    width: 35%;
+    margin-right: 130px;
+    justify-content: space-around;
+    letter-spacing: 2px;
+}
+
+ul li {
+    list-style: none;
+}
+
+li:hover {
+    color: aqua;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.container {
+    width: 100%;
+    height: 870px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 100%;
+}
+
+.swiper {
+    width: 80%;
+    height: 780px;
+}
+
+.swiper .swiper-button-prev, .swiper .swiper-button-next {
+    color: white;
+}
+
+.swiper .swiper-pagination-bullet-active {
+    background: white;
+}
+
+h1 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 55px;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 300;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.info {
+    margin-top: 90px;
+    margin-left: 250px;
+    width: 400px;
+    background-color: gainsboro;
+}
+
+h4 {
+    text-align: center;
+    font-weight: 300;
+    margin-left: 30px;
+}
+
+.border {
+    border: 2px solid #003ea8;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 30px 30px 20px 20px;
+}
+
+.logo-dodo {
+    position: absolute;
+    width: 510px;
+    height: 345px;
+    text-align: right;
+    margin-left: 1050px;
+}
+
+.comment {
+    position: absolute;
+    width: 500px;
+    height: 280px;
+    background: whitesmoke;
+    margin-left: 1045px;
+    margin-top: 375px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 1px rgb(29, 28, 28);
+    padding: 5px 10px;
+}
+
+.comment i {
+    position: absolute;
+    margin-left: 440px;
+}
+
+p {
+    display: flex;
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.bewertung {
+    font-size: 19px;
+    font-style: italic;
+}
+
+.name {
+    color: #003ea8;
+    font-size: 27px;
+}
+
+.top {
+    margin-bottom: 200px;
+}
+
+.wrap {
+    margin: auto;
+    margin-top: 70px;
+    width: 1000px;
+    height: 600px;
+    text-align: center;
+    user-select: none;
+    background-color: rgb(223, 222, 222);
+    border-radius: 10px;
+}
+
+.wrap i {
+    font-size: 80px;
+    width: 300px;
+    height: 150px;
+    margin-top: 130px;
+}
+
+.wrap i:hover {
+    font-size: 85px;
+}
+
+a {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+    
